@@ -1,4 +1,5 @@
-# cucumber-nex-tests
+# cypress-cucumber-nex
+
 Pre-requisites
 Before you can build and run the project, you must install the following software on your machine:
 
@@ -14,8 +15,8 @@ After cloning the repo on your machine, open a terminal, CD into the project's r
 
 It requires password file. I will provide passwords file called cypress.env.json by email.
 
-Place exactly under root folder parallel to cypress folder
-<Installed_Folder>/cucumber-nex-tests/cypress.env.json
+Place exactly under root folder and parallel to cypress folder.
+
 
 $ npm install # Installs test dependencies
 
