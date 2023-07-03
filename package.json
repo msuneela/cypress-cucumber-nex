@@ -1,0 +1,26 @@
+{
+  "name": "cucumber-nex-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx cypress run",
+    "debug": "npx cypress open"
+  },
+  "author": "suneela",
+  "license": "ISC",
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^18.0.1",
+    "cypress": "^12.16.0",
+    "install": "^0.13.0",
+    "npm": "^9.7.2"
+  },
+  "dependencies": {
+    "@cypress/browserify-preprocessor": "^3.0.2"
+  },
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "stepDefinitions": ["cypress/e2e/bdd-cucumber/login.js", "cypress/e2e/bdd-cucumber/products.js"]
+  }
+  
+}
